@@ -12,7 +12,6 @@ jobs:
       matrix:
         leia-tests:
           - examples/2.1
-          - examples/3.1
         lando-versions:
           - edge
         os:

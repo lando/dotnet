@@ -23,7 +23,7 @@ Run the following commands to validate things are rolling as they should.
 
 ```bash
 # Should return 3.x for the specified version
-lando ssh -s defaults -c "dotnet --version | grep \'^3.\'"
+lando ssh -s defaults -c "dotnet --version" | grep "3."
 
 # Should run on port 80 by default
 lando ssh -s defaults -c "curl http://localhost" | grep "Hello there"

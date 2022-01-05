@@ -1,7 +1,12 @@
-name: lando-dotnet
+name: lando-dotnet-3
 services:
   defaults:
     type: dotnet:3.1
     command: dotnet run
   cli:
     type: dotnet:3.1
+
+# This is important because it lets lando know to test against the plugin in this repo
+# DO NOT REMOVE THIS!
+plugins:
+  "@lando/dotnet": ./../../

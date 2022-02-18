@@ -3,9 +3,7 @@
 This is the _official_ [Lando](https://lando.dev) plugin for [Dotnet](https://dotnet.microsoft.com/). When installed it...
 
 * Allows users to run various `dotnet` versions
-* Serves applications over `nginx` or `apache`
 * Runs in `cli` mode
-* Comes with easy `composer` support
 
 Of course, once a user is running their dotnet project with Lando they can take advantage of [all the other awesome development features](https://docs.lando.dev) Lando provides.
 

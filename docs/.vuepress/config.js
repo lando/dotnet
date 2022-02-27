@@ -1,5 +1,3 @@
-const {path} = require('@vuepress/utils');
-
 module.exports = {
   lang: 'en-US',
   title: 'Lando',
@@ -30,11 +28,11 @@ module.exports = {
         text: 'Getting Started',
         link: '/index.html',
       },
-      '/config.md',
-      '/support.md',
+      '/config.html',
+      '/support.html',
       {text: 'Examples', link: 'https://github.com/lando/dotnet/tree/main/examples'},
       {text: 'Release Notes', link: 'https://github.com/lando/dotnet/releases'},
-      '/development.md',
+      '/development.html',
     ],
   },
 };

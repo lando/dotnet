@@ -28,7 +28,7 @@ module.exports = {
     sidebar: [
       {
         text: 'Getting Started',
-        link: '/index.md',
+        link: '/index.html',
       },
       '/config.md',
       '/support.md',

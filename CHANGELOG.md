@@ -1,4 +1,6 @@
-## IN DEVELOPMENT
+## v0.6.0 - [April 21, 2022](https://github.com/lando/dotnet/releases/tag/v0.6.01)
+
+* HYPERDRIVED
 
 ## v0.5.1 - [April 21, 2022](https://github.com/lando/dotnet/releases/tag/v0.5.1)
 

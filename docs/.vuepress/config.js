@@ -5,7 +5,7 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'Lando',
   description: 'The offical Lando plugin for Dotnet.',
-  base: '/',
+  base: '/dotnet/',
   head: [
     ['meta', {name: 'viewport', content: 'width=device-width, initial-scale=1'}],
     ['link', {rel: 'icon', href: '/dotnet/favicon.ico', size: 'any'}],

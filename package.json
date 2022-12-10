@@ -54,7 +54,6 @@
     "eslint-config-google": "^0.9.1",
     "eslint-plugin-vue": "^8.0.3",
     "mocha": "^9.1.2",
-    "nyc": "^15.1.0",
     "version-bump-prompt": "^4.2.1"
   }
 }

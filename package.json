@@ -47,7 +47,6 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.0",
     "@lando/leia": "^0.6.4",
     "chai": "^4.3.4",
     "command-line-test": "^1.0.10",

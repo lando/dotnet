@@ -1,4 +1,8 @@
-## v0.6.0 - [April 21, 2022](https://github.com/lando/dotnet/releases/tag/v0.6.01)
+## v0.7.0 - [December 11, 2022](https://github.com/lando/dotnet/releases/tag/v0.7.0)
+
+* Fixed `bundledDep` and `yarn` bug
+
+## v0.6.0 - [April 21, 2022](https://github.com/lando/dotnet/releases/tag/v0.6.0)
 
 * HYPERDRIVED
 

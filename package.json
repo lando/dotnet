@@ -16,7 +16,6 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "bundledDependencies": true,
   "lando": {},
   "main": "index.js",
   "nyc": {

@@ -1,3 +1,7 @@
+## v0.7.2 - [December 11, 2022](https://github.com/lando/dotnet/releases/tag/v0.7.2)
+
+* Multiple core release
+
 ## v0.7.1 - [December 11, 2022](https://github.com/lando/dotnet/releases/tag/v0.7.1)
 
 * Fixed bug in plugin dogfooding test

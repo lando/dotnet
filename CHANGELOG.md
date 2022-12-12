@@ -1,3 +1,7 @@
+## v0.7.1 - [December 11, 2022](https://github.com/lando/dotnet/releases/tag/v0.7.1)
+
+* Fixed bug in plugin dogfooding test
+
 ## v0.7.0 - [December 11, 2022](https://github.com/lando/dotnet/releases/tag/v0.7.0)
 
 * Fixed `bundledDep` and `yarn` bug

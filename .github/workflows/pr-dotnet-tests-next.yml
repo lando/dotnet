@@ -1,4 +1,4 @@
-name: Dotnet Tests
+name: Dotnet Tests V4
 
 on:
   pull_request:

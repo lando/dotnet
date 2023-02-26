@@ -1,3 +1,7 @@
+## v0.7.5 - [February 26, 2023](https://github.com/lando/dotnet/releases/tag/v0.7.5)
+
+* Piloted new release logic
+
 ## v0.7.4 - [February 26, 2023](https://github.com/lando/dotnet/releases/tag/v0.7.4)
 
 * Piloted new release logic

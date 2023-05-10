@@ -1,8 +1,9 @@
 name: Dotnet Tests V4
 
 on:
-  pull_request:
-
+  push:
+    branches:
+      - pause-for-now
 jobs:
   leia-tests:
     runs-on: ${{ matrix.os }}

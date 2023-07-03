@@ -1,3 +1,8 @@
+## v0.8.0 - [July 3, 2023](https://github.com/lando/dotnet/releases/tag/v0.8.0)
+  * Removed bundle-dependencies and version-bump-prompt from plugin.
+  * Updated package to use prepare-release-action.
+  * Updated documentation to reflect new release process.
+
 ## v0.7.5 - [February 26, 2023](https://github.com/lando/dotnet/releases/tag/v0.7.5)
 
 * Piloted new release logic

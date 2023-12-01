@@ -42,12 +42,6 @@ jobs:
         with:
           lando-plugin: true
 
-      # Prepare release.
-      - name: Prepare release
-        uses: lando/prepare-release-action@v2
-        with:
-          lando-plugin: true
-
       # Deploy
       - name: Publish latest release to GitHub Packages
         if: ${{ !github.event.release.prerelease }}

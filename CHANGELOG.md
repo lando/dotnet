@@ -1,7 +1,14 @@
+## v0.8.1 - [December 1, 2023](https://github.com/lando/dotnet/releases/tag/v0.8.1)
+
+* Bumped `@babel/traverse` from `7.20.5` to `7.23.2` #26
+* Bumped `postcss` from `8.4.19` to `8.4.31` #25
+* Bumped `get-func-name` from `2.0.0` to `2.0.2` #24
+
 ## v0.8.0 - [July 3, 2023](https://github.com/lando/dotnet/releases/tag/v0.8.0)
-  * Removed bundle-dependencies and version-bump-prompt from plugin.
-  * Updated package to use prepare-release-action.
-  * Updated documentation to reflect new release process.
+
+* Removed bundle-dependencies and version-bump-prompt from plugin.
+* Updated package to use prepare-release-action.
+* Updated documentation to reflect new release process.
 
 ## v0.7.5 - [February 26, 2023](https://github.com/lando/dotnet/releases/tag/v0.7.5)
 

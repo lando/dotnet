@@ -1,5 +1,6 @@
 ## v1.0.0 - [December 7, 2023](https://github.com/lando/dotnet/releases/tag/v1.0.0)
-    * Dialed fully for `lando update`
+
+* Dialed fully for `lando update`
 
 ## v0.8.1 - [December 1, 2023](https://github.com/lando/dotnet/releases/tag/v0.8.1)
 

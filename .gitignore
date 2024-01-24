@@ -48,4 +48,4 @@ yarn.lock
 docs/.vitepress/.temp
 docs/.vitepress/cache
 docs/.vitepress/dist
-docs/.vitepress/config.*.timestamp-*-*.mjs
+docs/.vitepress/config.*.timestamp-*-*.*

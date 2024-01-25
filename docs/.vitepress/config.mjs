@@ -29,9 +29,9 @@ function sidebar() {
       text: 'Introduction',
       collapsed: false,
       items: [
-        {text: 'Overview', link: '/overview'},
+        {text: 'Overview', link: '/'},
         {text: 'Installation', link: '/install'},
-        {text: 'Usage', link: '/usage'},
+        {text: 'Usage', link: '/config'},
       ],
     },
     {
@@ -46,13 +46,11 @@ function sidebar() {
       text: 'Help & Support',
       collapsed: false,
       items: [
-        {text: 'GitHub', link: 'https://github.com/lando/dotnetissues/new/choose'},
+        {text: 'GitHub', link: 'https://github.com/lando/dotnet/issues/new/choose'},
         {text: 'Slack', link: 'https://launchpass.com/devwithlando'},
         {text: 'Contact Us', link: '/support'},
       ],
     },
-    {text: 'Configuration', link: '/config/config'},
-    {text: 'Blog', link: '/blog'},
-    {text: 'Guides', link: '/guides'},
+    {text: 'Examples', link: 'https://github.com/lando/dotnet/tree/main/examples'},
   ];
 };

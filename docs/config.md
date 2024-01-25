@@ -1,9 +1,9 @@
 ---
-title: Configuration
+title: Usage
 description: Learn how to configure the Lando Dotnet service.
 ---
 
-# Configuration
+# Usage
 
 Here are the configuration options, set to the default values, for this service. If you are unsure about where this goes or what this means, we *highly recommend* scanning the [services documentation](https://docs.lando.dev/config/services.html) to get a good handle on how the magicks work.
 

@@ -26,12 +26,12 @@ export default defineConfig({
 function sidebar() {
   return [
     {
-      text: 'Introduction',
+      text: 'Overview',
       collapsed: false,
       items: [
-        {text: 'Overview', link: '/'},
+        {text: 'Introduction', link: '/'},
         {text: 'Installation', link: '/install'},
-        {text: 'Usage', link: '/config'},
+        {text: 'Configuration', link: '/config'},
       ],
     },
     {

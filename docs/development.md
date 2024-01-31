@@ -66,7 +66,7 @@ If you are more interested in the internals of the docs they use [VitePress](htt
 
 ## Testing
 
-It's best to familiarize yourself with how Lando [does testing](https://docs.lando.dev/contrib/contrib-testing.html) in general before proceeding.
+It's best to familiarize yourself with how Lando [does testing](https://docs.lando.dev/contrib/coder.html) in general before proceeding.
 
 ### Unit Tests
 
@@ -162,4 +162,4 @@ npm install @lando/dotnet@edge
 
 ## Contribution
 
-If you want to contribute code then just follow [this flow](https://guides.github.com/introduction/flow/).
+If you want to contribute code then just follow [this flow](https://docs.github.com/en/get-started/using-github/github-flow).

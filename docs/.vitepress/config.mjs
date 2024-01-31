@@ -47,7 +47,7 @@ function sidebar() {
       collapsed: false,
       items: [
         {text: 'GitHub', link: 'https://github.com/lando/dotnet/issues/new/choose'},
-        {text: 'Slack', link: 'https://launchpass.com/devwithlando'},
+        {text: 'Slack', link: 'https://www.launchpass.com/devwithlando'},
         {text: 'Contact Us', link: '/support'},
       ],
     },

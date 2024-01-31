@@ -34,4 +34,4 @@ Due to upstream changes these no longer work.
 
 ## Patch versions
 
-This service does not support patch versions but if you **really** need something like that, you could consider using either a [custom compose service](https://docs.lando.dev/compose) or a service [overrides](https://docs.lando.dev/core/v3/services.html#overrides).
+This service does not support patch versions but if you **really** need something like that, you could consider using either a [custom compose service](https://docs.lando.dev/compose) or a service [overrides](https://docs.lando.dev/core/v3/lando-service.html#overrides).

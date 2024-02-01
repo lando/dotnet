@@ -1,5 +1,5 @@
 ---
-description: Learn about the team that made VitePress Default Theme Plus.
+description: Learn about the team that made the Dotnet plugin for Lando.
 layout: page
 title: Team
 ---
@@ -10,7 +10,7 @@ title: Team
       Team
     </template>
     <template #lead>
-      We are the people who brought dotnet to Lando.
+      We are the people who brought Dotnet to Lando.
     </template>
   </VPLTeamPageTitle>
   <VPLTeamMembers :members="members" size="small"/>

@@ -39,9 +39,9 @@
 # We need this so preview environments and the base site look ok on their own
 [[redirects]]
   from = "/"
-  to = "/dotnet"
+  to = "/plugins/dotnet"
   status = 200
 [[redirects]]
-  from = "/dotnet/*"
+  from = "/plugins/dotnet/*"
   to = "/:splat"
   status = 200

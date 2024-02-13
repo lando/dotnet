@@ -10,6 +10,7 @@ const landoPlugin = name.replace('@lando/', '');
 export default defineConfig({
   title: 'Lando Dotnet Plugin',
   description: 'The offical Lando plugin for Dotnet.',
+  base: '/plugins/dotnet',
   landoDocs: 3,
   landoPlugin,
   version,

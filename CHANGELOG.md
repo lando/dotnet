@@ -1,5 +1,10 @@
+## v1.1.1 - [March 26, 2024](https://github.com/lando/dotnet/releases/tag/v1.1.1)
+
+* Released for DevOps purposes, contains no changes
+
 ## v1.1.0 - [March 8, 2024](https://github.com/lando/dotnet/releases/tag/v1.1.0)
-  * Updated to latest database services.
+
+* Updated to latest database services
 
 ## v1.0.0 - [December 7, 2023](https://github.com/lando/dotnet/releases/tag/v1.0.0)
 

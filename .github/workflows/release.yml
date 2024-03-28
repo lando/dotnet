@@ -44,6 +44,9 @@ jobs:
           sync-email: rtfm47@lando.dev
           sync-token: ${{ secrets.RTFM47_COAXIUM_INJECTOR }}
           sync-username: rtfm-47
+          sync-email: rtfm47@lando.dev
+          sync-token: ${{ secrets.RTFM47_COAXIUM_INJECTOR }}
+          sync-username: rtfm-47
 
       # Deploy
       - name: Publish latest release to GitHub Packages

@@ -14,9 +14,9 @@ jobs:
         leia-test:
           - examples/2.1
         lando-version:
-          - 3-dev-slim
+          - 3-edge-slim
         os:
-          - ubuntu-22.04
+          - ubuntu-24.04
         node-version:
           - '18'
     steps:

@@ -18,20 +18,20 @@ services:
 
 ## Supported versions
 
-*   [3.1](https://hub.docker.com/_/microsoft-dotnet-sdk/)
-*   **[2.1](https://hub.docker.com/_/microsoft-dotnet-sdk)** **(default)**
-*   [custom](https://docs.lando.dev/core/v3/lando-service.html#overrides)
+*   [3.1](https://hub.docker.com/r/microsoft/dotnet-sdk/)
+*   **[2.1](https://hub.docker.com/r/microsoft/dotnet-sdk)** **(default)**
+*   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
 
 ## Unsupported versions
 
 Due to upstream changes these no longer work.
 
-*   [2](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [2.0](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [1](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [1.1](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [1.0](https://hub.docker.com/_/microsoft-dotnet-core)
+*   [2](https://hub.docker.com/r/microsoft/dotnet)
+*   [2.0](https://hub.docker.com/r/microsoft/dotnet)
+*   [1](https://hub.docker.com/r/microsoft/dotnet)
+*   [1.1](https://hub.docker.com/r/microsoft/dotnet)
+*   [1.0](https://hub.docker.com/r/microsoft/dotnet)
 
 ## Patch versions
 
-This service does not support patch versions but if you **really** need something like that, you could consider using either a [custom compose service](https://docs.lando.dev/plugins/compose) or a service [overrides](https://docs.lando.dev/core/v3/lando-service.html#overrides).
+This service does not support patch versions but if you **really** need something like that, you could consider using either a [custom compose service](https://docs.lando.dev/plugins/compose) or a service [overrides](https://docs.lando.dev/core/v3/services/lando.html#overrides).

@@ -18,19 +18,19 @@ services:
 
 ## Supported versions
 
-*   [3.1](https://hub.docker.com/_/microsoft-dotnet-sdk/)
-*   **[2.1](https://hub.docker.com/_/microsoft-dotnet-sdk)** **(default)**
+*   [3.1](https://hub.docker.com/r/microsoft/dotnet-sdk/)
+*   **[2.1](https://hub.docker.com/r/microsoft/dotnet-sdk)** **(default)**
 *   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
 
 ## Unsupported versions
 
 Due to upstream changes these no longer work.
 
-*   [2](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [2.0](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [1](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [1.1](https://hub.docker.com/_/microsoft-dotnet-core)
-*   [1.0](https://hub.docker.com/_/microsoft-dotnet-core)
+*   [2](https://hub.docker.com/r/microsoft/dotnet)
+*   [2.0](https://hub.docker.com/r/microsoft/dotnet)
+*   [1](https://hub.docker.com/r/microsoft/dotnet)
+*   [1.1](https://hub.docker.com/r/microsoft/dotnet)
+*   [1.0](https://hub.docker.com/r/microsoft/dotnet)
 
 ## Patch versions
 

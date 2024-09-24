@@ -1,7 +1,8 @@
 [build]
   base = "./"
   publish = "docs/.vitepress/dist"
-  command = "npm run docs:build"
+  command = "env && npm run docs:build"
+  ignore = "env && exit 1"
 
 # Sets our asset optimization
 [build.processing.css]

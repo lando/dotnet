@@ -1,7 +1,7 @@
 [build]
   base = "./"
   publish = "docs/.vitepress/dist"
-  command = "env && npx vitepress build docs && npx vitepress build docs --outDir ./docs/.vitepress/dist/test --base /plugins/dotnet/test/ && cat .git/config && cd /tmp && git clone git@github.com:lando/dotnet.git && dotnet && git pull --tags"
+  command = "env && npx vitepress build docs && npx vitepress build docs --outDir ./docs/.vitepress/dist/test --base /plugins/dotnet/test/ && cat .git/config && cd /tmp && git clone $REPOSITORY_URL test && git clone https://x-access-token:$GITHUB_TOKEN@github.com/lando/dotnet && dotnet && git pull --tags"
   ignore = "env && exit 1"
 
 # Sets our asset optimization

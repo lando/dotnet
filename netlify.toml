@@ -1,7 +1,7 @@
 [build]
   base = "./"
   publish = "docs/.vitepress/dist"
-  command = "env && npm run docs:build"
+  command = "env && npx vitepress build docs && npx vitepress build docs --outDir ./docs/.vitepress/dist/test"
   ignore = "env && exit 1"
 
 # Sets our asset optimization

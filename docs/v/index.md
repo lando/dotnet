@@ -19,7 +19,7 @@ prev: false
 >
   <VPLVersionLink
     :text="link.text"
-    :href="link.href"
+    :href="`/plugins/dotnet/v${link.href}`"
     :prerelease="link.prerelease"
     :stable="link.stable"
     :edge="link.edge"
@@ -29,7 +29,7 @@ prev: false
 <br />
 
 <div>
-  <VPLVersionLink :dev="true" :text="aliases.dev" href="/v/dev/" />
+  <VPLVersionLink :dev="true" :text="aliases.dev" href="/plugins/dotnet/v/dev/" />
 </div>
 
 <script setup>

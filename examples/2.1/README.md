@@ -29,7 +29,7 @@ lando ssh -s defaults -c "dotnet --version" | grep "2."
 lando ssh -s defaults -c "curl http://localhost" | grep "Hello there"
 
 # Should not serve port 80 for cli
-lando ssh -s cli -c "curl http://localhost" || echo $? | grep 1
+lando ssh -s cli -c "curl http://localhost" || echo $? | grep 7
 ```
 
 Destroy tests

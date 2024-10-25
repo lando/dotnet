@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.2.0 - [October 25, 2024](https://github.com/lando/dotnet/releases/tag/v1.2.0)
+
 * Updated release process to generate an edge release when stable releases are created.
 
 ## v1.1.1 - [March 26, 2024](https://github.com/lando/dotnet/releases/tag/v1.1.1)

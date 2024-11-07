@@ -20,7 +20,7 @@ services:
 
 *   [3.1](https://hub.docker.com/r/microsoft/dotnet-sdk/)
 *   **[2.1](https://hub.docker.com/r/microsoft/dotnet-sdk)** **(default)**
-*   [custom](https://docs.lando.dev/core/v3/services/lando.html#overrides)
+*   [custom](https://docs.lando.dev/services/lando-3.html#overrides)
 
 ## Unsupported versions
 

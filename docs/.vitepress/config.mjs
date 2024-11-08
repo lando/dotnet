@@ -20,7 +20,7 @@ export default defineConfig({
   ],
   themeConfig: {
     multiVersionBuild: {
-      satisfies: '>=1.2.2',
+      satisfies: '>=1.2.3',
     },
     sidebar: sidebar(),
   },

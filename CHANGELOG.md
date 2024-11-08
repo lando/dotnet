@@ -1,12 +1,14 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+* Updated to [@lando/vitepress-theme-default-plus@v1.1.0-beta.19](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0-beta.19) part 2
+
 ## v1.2.2 - [November 8, 2024](https://github.com/lando/dotnet/releases/tag/v1.2.2)
 
-* Updated to [@lando/vitepress-theme-default-plus@v1.1.0-beta.19](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0-beta.19).
+* Updated to [@lando/vitepress-theme-default-plus@v1.1.0-beta.19](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0-beta.19)
 
 ## v1.2.1 - [November 4, 2024](https://github.com/lando/dotnet/releases/tag/v1.2.1)
 
-* Updated to [@lando/vitepress-theme-default-plus@v1.1.0-beta.18](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0-beta.18).
+* Updated to [@lando/vitepress-theme-default-plus@v1.1.0-beta.18](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0-beta.18)
 
 ## v1.2.0 - [October 25, 2024](https://github.com/lando/dotnet/releases/tag/v1.2.0)
 

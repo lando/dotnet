@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.2.5 - [December 4, 2024](https://github.com/lando/dotnet/releases/tag/v1.2.5)
+
 * Updated to [@lando/vitepress-theme-default-plus@v1.1.0-beta.24](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0-beta.24).
 
 ## v1.2.4 - [November 9, 2024](https://github.com/lando/dotnet/releases/tag/v1.2.4)

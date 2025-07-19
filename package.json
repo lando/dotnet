@@ -3,7 +3,7 @@
   "description": "The official Lando plugin for dotnet.",
   "version": "1.2.8",
   "author": "Mike Pirog @pirog",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "repository": "lando/dotnet",
   "bugs": "https://github.com/lando/dotnet/issues/new/choose",
   "homepage": "https://github.com/lando/dotnet",

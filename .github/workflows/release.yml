@@ -32,7 +32,6 @@ jobs:
           always-auth: true
       - name: Install dependencies
         run: npm clean-install --prefer-offline --frozen-lockfile
-
       - name: Lint code
         run: npm run lint
       - name: Run unit tests
@@ -46,6 +45,8 @@ jobs:
           sync-token: ${{ secrets.RTFM47_COAXIUM_INJECTOR }}
           sync-username: rtfm-47
 
+      - name: Upgrade npm for trusted publishing
+        run: npm install -g "npm@^11.5.1"
       - name: Publish to npm
         run: |
           VERSION=$(node -p "require('./package.json').version")

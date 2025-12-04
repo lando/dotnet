@@ -6,6 +6,8 @@ on:
 jobs:
   docs-tests:
     runs-on: ${{ matrix.os }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       matrix:
         os:
@@ -13,7 +15,6 @@ jobs:
         node-version:
           - '20'
     steps:
-      # Install deps and cache
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Cache version builds
@@ -21,7 +22,6 @@ jobs:
         with:
           key: lando-mvb-docs
           path: docs/.vitepress/cache/@lando/mvb
-          save-always: true
       - name: Install node ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
@@ -29,8 +29,6 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm clean-install --prefer-offline --frozen-lockfile
-
-      # Run tests
       - name: Run linter
         run: npm run lint
       - name: Test mvb

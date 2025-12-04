@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.2.9 - [December 4, 2025](https://github.com/lando/dotnet/releases/tag/v1.2.9)
+
 * Updated `npm` token workflow
 
 ## v1.2.8 - [February 14, 2025](https://github.com/lando/dotnet/releases/tag/v1.2.8)

@@ -29,7 +29,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: https://registry.npmjs.org
           cache: npm
-          always-auth: true
       - name: Install dependencies
         run: npm clean-install --prefer-offline --frozen-lockfile
       - name: Lint code

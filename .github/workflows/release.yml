@@ -5,6 +5,10 @@ on:
     types:
       - published
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   deploy:
     runs-on: ${{ matrix.os }}
@@ -17,7 +21,6 @@ jobs:
         node-version:
           - '20'
     steps:
-      # Install deps and cache
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Install node ${{ matrix.node-version }}
@@ -26,16 +29,15 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: https://registry.npmjs.org
           cache: npm
+          always-auth: true
       - name: Install dependencies
         run: npm clean-install --prefer-offline --frozen-lockfile
 
-      # Let's do tests rq just to make sure we dont push something that is fundamentally broken
       - name: Lint code
         run: npm run lint
       - name: Run unit tests
         run: npm run test:unit
 
-      # Prepare release.
       - name: Prepare release
         uses: lando/prepare-release-action@v3
         with:
@@ -44,7 +46,6 @@ jobs:
           sync-token: ${{ secrets.RTFM47_COAXIUM_INJECTOR }}
           sync-username: rtfm-47
 
-      # Deploy
       - name: Publish to npm
         run: |
           VERSION=$(node -p "require('./package.json').version")
@@ -65,5 +66,4 @@ jobs:
             echo "::notice title=Published $VERSION to $PACKAGE::This is a prerelease published to the 'edge' npm tag"
             echo "::notice title=Updated edge tag to $VERSION::The edge tag now points to $VERSION"
           fi
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_DEPLOY_TOKEN}}
+

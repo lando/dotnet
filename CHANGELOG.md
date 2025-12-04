@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+* Updated `npm` token workflow
+
 ## v1.2.8 - [February 14, 2025](https://github.com/lando/dotnet/releases/tag/v1.2.8)
 
 * Updated to [@lando/vitepress-theme-default-plus@v1.1.0](https://github.com/lando/vitepress-theme-default-plus/releases/tag/v1.1.0) part 3

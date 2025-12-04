@@ -33,7 +33,7 @@ services:
 
 ## Using SSL
 
-Also note that `ssl: true` will only generate certs in the [default locations](https://docs.lando.dev/config/security.html) and expose port `443`. It is up to the user to use the certs and secure port correctly in their application like as in [this article](https://asp.net-hacker.rocks/2018/07/05/aspnetcore-ssl.html).
+Also note that `ssl: true` will only generate certs in the [default locations](https://docs.lando.dev/config/security.html) and expose port `443`. It is up to the user to use the certs and secure port correctly in their application like as in [this article](https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-10.0&tabs=visual-studio%2Clinux-sles).
 
 ## Setting a port
 

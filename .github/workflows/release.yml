@@ -66,4 +66,6 @@ jobs:
             echo "::notice title=Published $VERSION to $PACKAGE::This is a prerelease published to the 'edge' npm tag"
             echo "::notice title=Updated edge tag to $VERSION::The edge tag now points to $VERSION"
           fi
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_DEPLOY_TOKEN}}
 

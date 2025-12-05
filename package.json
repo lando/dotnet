@@ -1,7 +1,7 @@
 {
   "name": "@lando/dotnet",
   "description": "The official Lando plugin for dotnet.",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "author": "Mike Pirog @pirog",
   "license": "MIT",
   "repository": "lando/dotnet",

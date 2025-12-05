@@ -1,5 +1,7 @@
 ## {{ UNRELEASED_VERSION }} - [{{ UNRELEASED_DATE }}]({{ UNRELEASED_LINK }})
 
+## v1.2.15 - [December 5, 2025](https://github.com/lando/dotnet/releases/tag/v1.2.15)
+
 * Tested `prepare-release-action`
 
 ## v1.2.14 - [December 4, 2025](https://github.com/lando/dotnet/releases/tag/v1.2.14)

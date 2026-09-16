@@ -44,10 +44,16 @@ jobs:
             setup.skipCommonPlugins=true
             setup.plugins.@lando/dotnet=/home/runner/work/dotnet/dotnet
           telemetry: false
-      - name: Run Leia Tests
-        uses: lando/run-leia-action@v2
+      - name: Install Node for Leia
+        uses: actions/setup-node@v6
         with:
-          leia-test: "./${{ matrix.leia-test }}/README.md"
-          cleanup-header: "Destroy tests"
-          shell: bash
-          stdin: true
+          node-version: '24'
+          package-manager-cache: false
+      - name: Run Leia Tests
+        shell: bash
+        env:
+          LEIA_DEBUG: ${{ runner.debug == '1' }}
+        run: >-
+          npm exec --yes --package=@lando/leia@2.0.0-beta.1 --
+          leia "./${{ matrix.leia-test }}/README.md"
+          --cleanup-header "Destroy tests" --shell bash --stdin
